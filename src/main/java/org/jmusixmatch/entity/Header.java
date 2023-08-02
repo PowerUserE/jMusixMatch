@@ -19,7 +19,7 @@ public class Header {
     @SerializedName("execute_time")
      private Double executeTime;
     @SerializedName("confidence")
-     private Integer confidence;
+     private Double confidence;
     @SerializedName("mode")
      private String mode;
     @SerializedName("cached")
@@ -41,7 +41,7 @@ public class Header {
         this.executeTime = executeTime;
     }
 
-    public Integer getConfidence() {
+    public Double getConfidence() {
         return confidence;
     }
 
